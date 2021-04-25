@@ -1,4 +1,5 @@
 ## starting of script
+cd ../
 echo "starting setting up device side repo...."
 echo "Device tree.."
 git clone https://github.com/alanmathew33/device_xiaomi_vince.git -b cherish-stable device/xiaomi/vince
