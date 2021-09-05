@@ -11,9 +11,9 @@ echo "..."
 echo "..."
 echo "Setting up hals...."
 rm -rf hardware/qcom-caf/msm8996
-git clone https://github.com/alanmathew33/hardware_qcom_audio_msm8996-vince.git -b r11.0 hardware/qcom-caf/msm8996/audio
-git clone https://github.com/alanmathew33/hardware_qcom_display_msm8996-vince.git -b r11.0 hardware/qcom-caf/msm8996/display
-git clone https://github.com/alanmathew33/hardware_qcom_media_msm8996-vince.git -b r11.0 hardware/qcom-caf/msm8996/media
+git clone https://github.com/alanmathew33/hardware_qcom_audio_msm8996.git -b r11.0 hardware/qcom-caf/msm8996/audio
+git clone https://github.com/alanmathew33/hardware_qcom_display_msm8996.git -b r11.0 hardware/qcom-caf/msm8996/display
+git clone https://github.com/alanmathew33/hardware_qcom_media_msm8996.git -b r11.0 hardware/qcom-caf/msm8996/media
 echo "..."
 echo "..."
 echo " Now some miscellaneous things"
