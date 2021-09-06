@@ -1,10 +1,6 @@
 ## starting of script
 cd ../
 echo "starting setting up device side repo...."
-echo "Device tree.."
-git clone https://github.com/alanmathew33/device_xiaomi_vince.git -b cherish-stable device/xiaomi/vince
-echo "Vendor tree.."
-git clone https://github.com/alanmathew33/vendor_xiaomi_vince.git -b Cherish-11 vendor/xiaomi/vince
 echo "Kernel tree.."
 git clone https://github.com/Blacksuan19/kernel_dark_ages_vince.git -b darky kernel/xiaomi/vince
 echo "..."
@@ -17,7 +13,10 @@ git clone https://github.com/andro-sapien/hardware_qcom_media_msm8996.git hardwa
 echo "..."
 echo "..."
 echo " Now some miscellaneous things"
-rm -rf hardware/qcom-caf/wlan && git clone https://android.googlesource.com/platform/hardware/qcom/wlan hardware/qcom-caf/wlan
-cd kernel/xiaomi/vince && git checkout darky && git revert fec013b9f5bb70c1e51285aa6e042f21f4298447 --no-edit && cd ../../..
+git clone https://github.com/andro-sapien/vendor_prebuilts_dirac.git vendor/xiaomi/dirac 
+rm -rf prebuilts/gcc/linux-x86/aarch64/aarch64-elf && git clone https://github.com/andro-sapien/gcc-arm64.git prebuilts/gcc/linux-x86/aarch64/aarch64-elf
+rm -rf prebuilts/gcc/linux-x86/arm/arm-eabi && git clone https://github.com/andro-sapien/gcc-arm.git prebuilts/gcc/linux-x86/arm/arm-eabi
+echo "..."
+echo "..."
 echo "finishing...."
 echo "All Done."
