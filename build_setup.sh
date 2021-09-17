@@ -2,7 +2,7 @@
 cd ../
 echo "starting setting up device side repo...."
 echo "Kernel tree.."
-git clone https://github.com/Blacksuan19/kernel_dark_ages_vince.git -b darky kernel/xiaomi/vince
+git clone --depth 1 https://github.com/Blacksuan19/kernel_dark_ages_vince.git -b darky kernel/xiaomi/vince
 echo "..."
 echo "..."
 echo " Now some miscellaneous things"
