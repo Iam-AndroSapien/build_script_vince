@@ -9,7 +9,6 @@ echo "..."
 echo "..."
 echo " Now some miscellaneous things"
 git clone https://github.com/andro-sapien/vendor_prebuilts_dirac.git vendor/xiaomi/dirac 
-git clone --depth 1 https://github.com/andro-sapien/vortex-clang.git prebuilts/clang/host/linux-x86/clang-14
 rm -rf hardware/qcom-caf/wlan && git clone https://android.googlesource.com/platform/hardware/qcom/wlan hardware/qcom-caf/wlan
 echo "..."
 echo "..."
