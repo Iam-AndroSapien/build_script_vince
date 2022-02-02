@@ -18,7 +18,7 @@ echo "..."
 echo "..."
 echo "..."
 echo " Eva GCC"
-rm -rf prebuilts/gcc/linux-x86/aarch64/aarch64-elf && git clone --depth 1 https://github.com/andro-sapien/gcc-arm64.git prebuilts/gcc/linux-x86/aarch64/aarch64-elf
-rm -rf prebuilts/gcc/linux-x86/arm/arm-eabi && git clone --depth 1 https://github.com/andro-sapien/gcc-arm.git prebuilts/gcc/linux-x86/arm/arm-eabi
+git clone --depth 1 https://github.com/mvaisakh/gcc-arm64.git prebuilts/gcc/linux-x86/aarch64/aarch64-elf
+git clone --depth 1 https://github.com/mvaisakh/gcc-arm.git prebuilts/gcc/linux-x86/arm/arm-eabi
 echo "finishing...."
 echo "All Done."
