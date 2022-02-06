@@ -18,7 +18,8 @@ echo "..."
 echo "..."
 echo "..."
 echo "..."
-echo " clang - 14.0 .1"
-git clone --depth 1 https://gitlab.com/arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b.git prebuilts/clang/host/linux-x86/clang-r437112b
+echo " Eva GCC"
+git clone --depth 1 https://github.com/andro-sapien/gcc-arm64.git prebuilts/gcc/linux-x86/aarch64/aarch64-elf
+git clone --depth 1 https://github.com/andro-sapien/gcc-arm.git prebuilts/gcc/linux-x86/arm/arm-eabi
 echo "finishing...."
 echo "All Done."
