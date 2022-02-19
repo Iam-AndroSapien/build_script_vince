@@ -19,6 +19,6 @@ echo "..."
 echo "..."
 echo "..."
 echo " clang - 14.0 .1"
-git clone --depth 1 https://github.com/ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r437112.git prebuilts/clang/host/linux-x86/clang-r437112
+git clone --depth 1 https://gitlab.com/GhostMaster69-dev/Cosmic-Clang.git prebuilts/clang/host/linux-x86/clang-14
 echo "finishing...."
 echo "All Done."
