@@ -18,6 +18,6 @@ echo "..."
 echo "..."
 echo "..."
 echo " clang - 14.0 .1"
-git clone --depth 1 https://gitlab.com/GhostMaster69-dev/Cosmic-Clang.git prebuilts/clang/host/linux-x86/clang-14
+git clone --depth 1 https://gitlab.com/GhostMaster69-dev/Cosmic-Clang.git prebuilts/clang/host/linux-x86/clang-cosmic
 echo "finishing...."
 echo "All Done."
