@@ -2,7 +2,7 @@
 cd ../
 echo "starting setting up device side repo...."
 echo "Kernel tree.."
-git clone --depth 1 https://github.com/GhostMaster69-dev/android_kernel_xiaomi_vince.git -b stable kernel/xiaomi/vince
+git clone --depth 1 https://github.com/GhostMaster69-dev/android_kernel_xiaomi_vince.git -b 12 kernel/xiaomi/vince
 echo "..."
 echo "..."
 echo "..."
