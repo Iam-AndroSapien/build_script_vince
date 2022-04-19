@@ -10,6 +10,6 @@ rm -rf hardware/qcom-caf/wlan && git clone https://github.com/andro-sapien/hardw
 echo "..."
 echo "..."
 echo " Cosmic-clang"
-git clone --depth 1 https://github.com/GhostMaster69-dev/cosmic-clang.git prebuilts/clang/host/linux-x86/clang-cosmic
+git clone --depth 1 https://gitlab.com/GhostMaster69-dev/Cosmic-Clang.git prebuilts/clang/host/linux-x86/clang-cosmic
 echo "finishing...."
 echo "All Done."
